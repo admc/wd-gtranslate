@@ -1,0 +1,23 @@
+{
+    "name" : "wd-gtranslate"
+  , "description" : "Use virual browsers to use google translate"
+  , "tags" : ["web", "video", "browser", "javascript"]
+  , "version" : "0.0.1"
+  , "author" : "Adam Christian <adam.christian@gmail.com>"
+  , "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/admc/wd-gtranslate.git"
+    }
+  , "bugs" :
+    { "url" : "https://github.com/admc/wd-gtranslate/issues" }
+  , "engines" : ["node"]
+  , "main" : "./lib/main"
+  , "directories" : { "lib" : "./lib" }
+  , "dependencies" : {
+    "wd-sync" : "latest"
+    , "sauce" : "latest"
+    , "optimist" : "latest"
+    , "wd-zombie" : "latest"
+  }
+  , "bin" : { "gtranslate" : "./lib/bin.js" }
+}
